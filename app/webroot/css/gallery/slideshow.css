@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+ul.gallery_images li {
+	-moz-box-shadow: 7px 7px 10px #888;
+	-webkit-box-shadow: 7px 7px 10px #888;
+	box-shadow: 7px 7px 10px #888;
+	padding: 10px auto;
+	background: white;
+	list-style: none;
+	margin-left: 3%;
+	margin-top: 15px;
+	overflow: hidden;
+	
+}
+ul.gallery_images li a img {
+	border: 8px solid white;
+	border-bottom: 7px solid white;
+}

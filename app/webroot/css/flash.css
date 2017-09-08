@@ -1,0 +1,18 @@
+/* flash messages */
+.flash-messages {
+   text-align: center;
+}
+.flash-error, .flash-info, .flash-success {
+ display:inline-block;
+ padding: 2px 8px;
+ border-radius:9px;
+ color: white;
+}
+.flash-info {
+ background-color:#dbba11;
+}
+.flash-error {
+ background-color:#db2011;
+}
+.flash-success {
+ background-color:#0eb331;

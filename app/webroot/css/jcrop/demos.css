@@ -1,0 +1,30 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.article h1
+{
+	color: #333;
+	margin-top: .2em;
+}
+.jcropper-holder { border: 1px black solid; }
+#outer { text-align: center; }
+.jcExample
+{
+	text-align: left;
+	background: white;
+	width: 700px;
+	margin: 1.5em auto 2em auto;
+	border: 1px #999 solid;
+	padding: 1em 2em 2em;
+}
+.jcExample .article { width: 565px; }
+form { margin: 1.5em 0; }
+form.coords input { width: 3em; }
+
+div.image {
+	max-width: 600px;
+	max-height: 600px;
+	overflow:hidden;
+}

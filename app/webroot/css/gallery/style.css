@@ -1,0 +1,25 @@
+ul.galleries li {
+	background: none repeat scroll 0 0 #fdfdfd;
+    border: 1px solid #CCCCCC;
+    height: 260px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+	float: left;
+	padding: 10px;
+	margin-left: 45px;
+	list-style: none;
+}
+
+ul.galleries li a img {
+	border: 1px solid #1D1D1D;
+} 
+div.title {
+	height: 60px; 
+	padding: 7px 0;
+	
+}
+
+div.title a {
+	color: #770011;
+}
