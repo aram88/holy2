@@ -1,0 +1,383 @@
+@CHARSET "ISO-8859-1";
+/*txet aligb*/
+.txtL{
+	text-align: left;
+}
+.txtR{
+	text-align: right;
+}
+.txtC {
+	text-align: center;
+}
+.txtJ {
+	text-align: justify;
+}
+.txtI {
+	text-align: inherit;
+}
+.txtB {
+	vertical-align: bottom;
+}
+.txtTB{
+	vertical-align: text-bottom;
+}
+.txtT{
+	vertical-align: top;
+}
+.txtTT{
+	vertical-align: text-top;
+}
+.txtM{
+	vertical-align: middle;
+}
+
+/*Floats*/
+.floatL{
+	float: left;
+}
+.floatR {
+	float: right;
+}
+.floatI {
+	float: inherit;
+}
+.floatN {
+	float: none !important;
+}
+
+
+/*Displays*/
+.displayB{
+	display: block;
+}
+.displayI{
+	display: inherit;
+}
+.displayIL{
+	display: inline;
+}
+.displayIB{
+	display: inline-block;
+}
+.displayIT{
+	display: inline-table;
+}
+.displayN{
+	display: none;
+	
+}
+.displayT {
+	display: table; 
+}
+
+/*Margins*/
+
+.HmarginA {
+    margin: 0 auto;
+}
+.Lmargin0{
+	margin-left: 0px !important;
+}
+
+.margin5, .Hmargin5, .Lmargin5{
+	margin-left:5px;
+}
+.margin5, .Hmargin5, .Rmargin5{
+	margin-right:5px;
+}
+.margin5, .Vmargin5, .Tmargin5{
+	margin-top:5px;
+}
+.margin5, .Vmargin5, .Bmargin5{
+	margin-bottom:5px;
+}
+
+.margin10, .Hmargin10, .Lmargin10{
+	margin-left:10px;
+}
+.margin10, .Hmargin10, .Rmargin10{
+	margin-right:10px;
+}
+.margin10, .Vmargin10, .Tmargin10{
+	margin-top:10px;
+}
+.margin10, .Vmargin10, .Bmargin10{
+	margin-bottom:10px;
+}
+
+.margin15, .Hmargin15, .Lmargin15{
+	margin-left:15px;
+}
+.margin15, .Hmargin15, .Rmargin15{
+	margin-right:15px;
+}
+.margin15, .Vmargin15, .Tmargin15{
+	margin-top:15px;
+}
+.margin15, .Vmargin15, .Bmargin15{
+	margin-bottom:15px;
+}
+
+.margin20, .Hmargin20, .Lmargin20{
+	margin-left:20px;
+}
+.margin20, .Hmargin20, .Rmargin20{
+	margin-right:20px;
+}
+.margin20, .Vmargin20, .Tmargin20{
+	margin-top:20px;
+}
+.margin20, .Vmargin20, .Bmargin20{
+	margin-bottom:20px;
+}
+
+.margin25, .Hmargin25, .Lmargin25{
+	margin-left:25px;
+}
+.margin25, .Hmargin25, .Rmargin25{
+	margin-right:25px;
+}
+.margin25, .Vmargin25, .Tmargin25{
+	margin-top:25px;
+}
+.margin25, .Vmargin25, .Bmargin25{
+	margin-bottom:25px;
+}
+
+.margin30, .Hmargin30, .Lmargin30{
+	margin-left:30px;
+}
+.margin30, .Hmargin30, .Rmargin30{
+	margin-right:30px;
+}
+.margin30, .Vmargin30, .Tmargin30{
+	margin-top:30px;
+}
+.margin30, .Vmargin30, .Bmargin30{
+	margin-bottom:30px;
+}
+
+.margin35, .Hmargin35, .Lmargin35{
+	margin-left:35px;
+}
+.margin35, .Hmargin35, .Rmargin35{
+	margin-right:35px;
+}
+.margin35, .Vmargin35, .Tmargin35{
+	margin-top:35px;
+}
+.margin35, .Vmargin35, .Bmargin35{
+	margin-bottom:35px;
+}
+
+
+.margin40, .Hmargin40, .Lmargin40{
+	margin-left:40px;
+}
+.margin40, .Hmargin40, .Rmargin40{
+	margin-right:40px;
+}
+.margin40, .Vmargin40, .Tmargin40{
+	margin-top:40px;
+}
+.margin40, .Vmargin40, .Bmargin40{
+	margin-bottom:40px;
+}
+
+.margin45, .Hmargin45, .Lmargin45{
+	margin-left:45px;
+}
+.margin45, .Hmargin45, .Rmargin45{
+	margin-right:45px;
+}
+.margin45, .Vmargin45, .Tmargin45{
+	margin-top:45px;
+}
+.margin45, .Vmargin45, .Bmargin45{
+	margin-bottom:45px;
+}
+
+.margin50, .Hmargin50, .Lmargin50{
+	margin-left:50px;
+}
+.margin50, .Hmargin50, .Rmargin50{
+	margin-right:50px;
+}
+.margin50, .Vmargin50, .Tmargin50{
+	margin-top:50px;
+}
+.margin50, .Vmargin50, .Bmargin50{
+	margin-bottom:50px;
+}
+.Lmargin150 {
+	margin-left: 150px;
+}
+
+/*Paddings*/
+.padding5, .Hpadding5, .Lpadding5{
+	padding-left:5px;
+}
+.padding5, .Hpadding5, .Rpadding5{
+	padding-right:5px;
+}
+.padding5, .Vpadding5, .Tpadding5{
+	padding-top:5px;
+}
+.padding5, .Vpadding5, .Bpadding5{
+	padding-bottom:5px;
+}
+
+.padding10, .Hpadding10, .Lpadding10{
+	padding-left:10px;
+}
+.padding10, .Hpadding10, .Rpadding10{
+	padding-right:10px;
+}
+.padding10, .Vpadding10, .Tpadding10{
+	padding-top:10px;
+}
+.padding10, .Vpadding10, .Bpadding10{
+	padding-bottom:10px;
+}
+
+.padding15, .Hpadding15, .Lpadding15{
+	padding-left:15px;
+}
+.padding15, .Hpadding15, .Rpadding15{
+	padding-right:15px;
+}
+.padding15, .Vpadding15, .Tpadding15{
+	padding-top:15px;
+}
+.padding15, .Vpadding15, .Bpadding15{
+	padding-bottom:15px;
+}
+
+.padding20, .Hpadding20, .Lpadding20{
+	padding-left:20px;
+}
+.padding20, .Hpadding20, .Rpadding20{
+	padding-right:20px;
+}
+.padding20, .Vpadding20, .Tpadding20{
+	padding-top:20px;
+}
+.padding20, .Vpadding20, .Bpadding20{
+	padding-bottom:20px;
+}
+
+.padding25, .Hpadding25, .Lpadding25{
+	padding-left:25px;
+}
+.padding25, .Hpadding25, .Rpadding25{
+	padding-right:25px;
+}
+.padding25, .Vpadding25, .Tpadding25{
+	padding-top:25px;
+}
+.padding25, .Vpadding25, .Bpadding25{
+	padding-bottom:25px;
+}
+
+.padding30, .Hpadding30, .Lpadding30{
+	padding-left:30px;
+}
+.padding30, .Hpadding30, .Rpadding30{
+	padding-right:30px;
+}
+.padding30, .Vpadding30, .Tpadding30{
+	padding-top:30px;
+}
+.padding30, .Vpadding30, .Bpadding30{
+	padding-bottom:30px;
+}
+
+.padding35, .Hpadding35, .Lpadding35{
+	padding-left:35px;
+}
+.padding35, .Hpadding35, .Rpadding35{
+	padding-right:35px;
+}
+.padding35, .Vpadding35, .Tpadding35{
+	padding-top:35px;
+}
+.padding35, .Vpadding35, .Bpadding35{
+	padding-bottom:35px;
+}
+
+
+.padding40, .Hpadding40, .Lpadding40{
+	padding-left:40px;
+}
+.padding40, .Hpadding40, .Rpadding40{
+	padding-right:40px;
+}
+.padding40, .Vpadding40, .Tpadding40{
+	padding-top:40px;
+}
+.padding40, .Vpadding40, .Bpadding40{
+	padding-bottom:40px;
+}
+
+.padding45, .Hpadding45, .Lpadding45{
+	padding-left:45px;
+}
+.padding45, .Hpadding45, .Rpadding45{
+	padding-right:45px;
+}
+.padding45, .Vpadding45, .Tpadding45{
+	padding-top:45px;
+}
+.padding45, .Vpadding45, .Bpadding45{
+	padding-bottom:45px;
+}
+
+.padding50, .Hpadding50, .Lpadding50{
+	padding-left:50px;
+}
+.padding50, .Hpadding50, .Rpadding50{
+	padding-right:50px;
+}
+.padding50, .Vpadding50, .Tpadding50{
+	padding-top:50px;
+}
+.padding50, .Vpadding50, .Bpadding50{
+	padding-bottom:50px;
+}
+
+.Awidth{
+	width:auto !important;
+}
+
+.button {
+    background: url('../img/home/rbg.png');
+    border: medium none;
+    color: white;
+    font-size: 14px;
+    height: auto;
+    padding: 5px;
+    width: auto;
+    cursor: pointer;
+}	
+.lh2{
+	line-height: 2em;
+}
+.bold {
+	font-weight: bold;
+}
+.ListStyleN {
+	list-style: none;
+}
+.pointer {
+	cursor:pointer;
+}
+.W400 {
+	width: 400px;
+}
+.fwb {
+	font-weight: bold;
+	
+}
+.W230{
+	width: 230px;
+}
