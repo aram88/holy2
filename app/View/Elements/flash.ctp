@@ -1,0 +1,1 @@
+<div class="flash-messages ta-center mt5" ><?php echo $this->Session->flash();?></div>
